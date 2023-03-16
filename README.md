@@ -392,6 +392,7 @@ Contenido del widget CircleAvatar
 
 Contenido del widget AnimatedContainer
 </details>
+
 <details>
 <summary>AnimatedOpacity</summary>
 Contenido del widget AnimatedOpacity
@@ -400,34 +401,44 @@ Contenido del widget AnimatedOpacity
 <details>
 <summary>AnimatedPadding</summary>
 Contenido del widget AnimatedPadding
+
 </details>
 
 <details>
+
 <summary>AnimatedPositioned</summary>
+
 Contenido del widget AnimatedPositioned
 </details>
 
 <details>
+
 <summary>Hero </summary>
+
  * Hero
 </summary>
 
 
 <details>
 <summary>AnimatedBuilder </summary>
+
  * AnimatedBuilder
 </summary>
 
 ##  Widgets de Iconos
 
 <details>
+
 <summary>Icon </summary>
+
 Contenido del widget Icon
 </summary>
 
 
 <details>
+
 <summary>ImageIcon </summary>
+
 Contenido del widget ImageIcon
 </summary>
 
@@ -438,30 +449,40 @@ Contenido del widget DatePicker
 </summary>
 
 <details>
+
 <summary>TimePicker </summary>
+
 Contenido del widget TimePicker
 </summary>
 
 ##  Widgets de Progreso
 <details>
+
 <summary>CircularProgressIndicator </summary>
+
 Contenido del widget CircularProgressIndicator
 </summary>
 
 <details>
+
 <summary>LinearProgressIndicator </summary>
+
 Contenido del widget LinearProgressIndicator
 </summary>
 
 
 ##  Widgets de Modalidad
 <details>
+
 <summary>AlertDialog </summary>
+
 Contenido del widget CircularProgressIndicator
 </summary>
 
 <details>
+
 <summary>BottomSheet </summary>
+
 Contenido del widget BottomSheet
 </summary>
 
