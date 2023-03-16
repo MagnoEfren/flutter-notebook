@@ -101,4 +101,433 @@ Parámetros:
 Hay muchos más parámetros disponibles en el widget Scaffold, pero estos son algunos de los más comunes y útiles.
 
 
+## Widgets de Layout
+<details>
+<summary>Container</summary>
+
+Contenido del widget Container
+
+</details>
+
+<details>
+<summary>Row</summary>
+
+Contenido del widget Row
+
+</details>
+
+<details>
+<summary>Column</summary>
+
+Contenido del widget Column
+
+</details>
+
+<details>
+<summary>Expanded</summary>
+
+Contenido del widget Expanded
+
+</details>
+
+<details>
+<summary>SizedBox</summary>
+
+Contenido del widget SizedBox
+
+</details>
+
+<details>
+<summary>Wrap</summary>
+
+Contenido del widget Wrap
+
+</details>
+
+<details>
+<summary>Flex</summary>
+
+Contenido del widget Flex
+
+</details>
+
+<details>
+<summary>ListView</summary>
+
+Contenido del widget ListView
+
+</details>
+
+<details>
+<summary>GridView</summary>
+
+Contenido del widget GridView
+
+</details>
+
+<details>
+<summary>Stack</summary>
+
+Contenido del widget Stack
+
+</details>
+
+## ________________________________________________________
+
+<details>
+<summary> MaterialApp </summary>
+* MaterialApp
+</details>
+
+<details>
+<summary> CupertinoApp </summary>
+* CupertinoApp
+</details>
+
+<details>
+<summary> Scaffold </summary>
+* Scaffold
+</details>
+
+<details>
+<summary> CupertinoTabScaffold </summary>
+* CupertinoTabScaffold
+</details>
+
+<details>
+<summary> NavigationBar </summary>
+* NavigationBar
+</details>
+
+
+<details>
+<summary> Drawer </summary>
+* Drawer
+</details>
+
+
+<details>
+<summary> BottomNavigationBar </summary>
+* BottomNavigationBar
+</details>
+
+<details>
+<summary> TabBar </summary>
+* TabBar
+</details>
+
+<details>
+<summary> AppBar </summary>
+* AppBar
+</details>
+
+<details>
+<summary> TabController </summary>
+* TabController
+</details>
+
+<details>
+<summary> PageView </summary>
+* PageView
+</details>
+
+
+## Widgets de Texto
+<details>
+<summary>Text</summary>
+
+Contenido del widget Text
+
+</details>
+
+<details>
+<summary>RichText</summary>
+
+Contenido del widget RichText
+
+</details>
+
+<details>
+<summary>DefaultTextStyle</summary>
+
+Contenido del widget DefaultTextStyle
+
+</details>
+
+
+
+
+
+
+## Widgets de Entrada de Datos
+<details>
+<summary>TextField</summary>
+
+Contenido del widget TextField
+
+</details>
+
+<details>
+<summary>TextFormField</summary>
+
+Contenido del widget TextFormField
+
+</details>
+
+<details>
+<summary>Checkbox</summary>
+
+Contenido del widget Checkbox
+
+</details>
+
+<details>
+<summary>Radio</summary>
+
+Contenido del widget Radio
+
+</details>
+
+<details>
+<summary>Switch</summary>
+
+Contenido del widget Switch
+
+</details>
+
+<details>
+<summary>Slider</summary>
+
+Contenido del widget Slider
+
+</details>
+
+<details>
+<summary>DropdownButton</summary>
+
+Contenido del widget DropdownButton
+
+</details>
+
+<details>
+<summary>CupertinoPicker</summary>
+
+Contenido del widget CupertinoPicker
+
+</details>
+
+
+
+
+## Widgets de Botones
+
+
+<details>
+<summary>ElevatedButton</summary>
+
+Contenido del widget ElevatedButton
+
+</details>
+
+<details>
+<summary>TextButton</summary>
+
+Contenido del widget TextButton
+
+</details>
+
+<details>
+<summary>OutlinedButton</summary>
+
+Contenido del widget OutlinedButton
+
+</details>
+
+<details>
+<summary>FloatingActionButton</summary>
+
+Contenido del widget FloatingActionButton
+
+</details>
+
+<details>
+<summary>IconButton</summary>
+
+Contenido del widget IconButton
+
+</details>
+
+<details>
+<summary>DropdownButton</summary>
+
+Contenido del widget DropdownButton
+
+</details>
+
+## Widgets de Imágenes
+<details>
+<summary>Image</summary>
+
+Contenido del widget Image
+
+</details>
+
+<details>
+<summary>Placeholder</summary>
+
+Contenido del widget Placeholder
+
+</details>
+
+<details>
+<summary>CircleAvatar</summary>
+
+Contenido del widget CircleAvatar
+
+</details>
+
+## Widgets de Animación
+<details>
+<summary>AnimatedContainer</summary>
+
+Contenido del widget AnimatedContainer
+</details>
+<details>
+<summary>AnimatedOpacity</summary>
+Contenido del widget AnimatedOpacity
+</details>
+
+<details>
+<summary>AnimatedPadding</summary>
+Contenido del widget AnimatedPadding
+</details>
+
+<details>
+<summary>AnimatedPositioned</summary>
+Contenido del widget AnimatedPositioned
+</details>
+
+<details>
+<summary>Hero </summary>
+ * Hero
+</summary>
+
+
+<details>
+<summary>AnimatedBuilder </summary>
+ * AnimatedBuilder
+</summary>
+
+##  Widgets de Iconos
+
+<details>
+<summary>Icon </summary>
+Contenido del widget Icon
+</summary>
+
+
+<details>
+<summary>ImageIcon </summary>
+Contenido del widget ImageIcon
+</summary>
+
+##  Widgets de Fecha y Hora
+<details>
+<summary>DatePicker </summary>
+Contenido del widget DatePicker
+</summary>
+
+<details>
+<summary>TimePicker </summary>
+Contenido del widget TimePicker
+</summary>
+
+##  Widgets de Progreso
+<details>
+<summary>CircularProgressIndicator </summary>
+Contenido del widget CircularProgressIndicator
+</summary>
+
+<details>
+<summary>LinearProgressIndicator </summary>
+Contenido del widget LinearProgressIndicator
+</summary>
+
+
+##  Widgets de Modalidad
+<details>
+<summary>AlertDialog </summary>
+Contenido del widget CircularProgressIndicator
+</summary>
+
+<details>
+<summary>BottomSheet </summary>
+Contenido del widget BottomSheet
+</summary>
+
+
+<details>
+<summary>ModalBarrier </summary>
+Contenido del widget ModalBarrier
+</summary>
+
+<details>
+<summary>PopupMenuButton </summary>
+Contenido del widget PopupMenuButton
+</summary>
+
+<details>
+<summary>SimpleDialog </summary>
+Contenido del widget SimpleDialog
+</summary>
+
+
+## Widgets de Decoración
+<details>
+<summary>DecoratedBox </summary>
+Contenido del widget DecoratedBox
+</summary>
+
+<details>
+<summary>BoxDecoration </summary>
+Contenido del widget BoxDecoration
+</summary>
+
+<details>
+<summary>ClipRect </summary>
+Contenido del widget ClipRect
+</summary>
+
+<details>
+<summary>ClipOval </summary>
+Contenido del widget ClipOval
+</summary>
+
+<details>
+<summary>ClipPath </summary>
+Contenido del widget ClipPath
+</summary>
+
+## Widgets de Reproducción de Audio y Video
+<details>
+<summary>VideoPlayer </summary>
+Contenido del widget VideoPlayer
+</summary>
+
+<details>
+<summary>AudioPlayer </summary>
+Contenido del widget AudioPlayer
+</summary>
+
+## Widgets de Mapas
+<details>
+<summary>GoogleMaps </summary>
+Contenido del widget GoogleMaps
+</summary>
+
+<details>
+<summary>MapBox </summary>
+Contenido del widget MapBox
+</summary>
+
 
