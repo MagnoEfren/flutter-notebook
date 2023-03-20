@@ -75,6 +75,7 @@ Parámetros:
 
 <details>
 <summary>Expanded</summary>
+
 ## Expanded
 El widget Expanded se utiliza dentro de una fila o columna para hacer que un widget ocupe todo el espacio disponible en esa dirección. Puedes envolver el widget que deseas expandir en un Expanded y configurar su flex para controlar la cantidad de espacio que ocupa.
 
