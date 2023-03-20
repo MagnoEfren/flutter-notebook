@@ -75,50 +75,246 @@ Parámetros:
 
 <details>
 <summary>Expanded</summary>
+## Expanded
+El widget Expanded se utiliza dentro de una fila o columna para hacer que un widget ocupe todo el espacio disponible en esa dirección. Puedes envolver el widget que deseas expandir en un Expanded y configurar su flex para controlar la cantidad de espacio que ocupa.
 
-Contenido del widget Expanded
+```dart
+Column(
+  children: <Widget>[
+    Expanded(
+      flex: 1,
+      child: Text('Título'),
+    ),
+    Expanded(
+      flex: 2,
+      child: Text('Descripción'),
+    ),
+  ],
+)
+
+```
+Parámetros:
+* flex: la cantidad de espacio que debe ocupar el widget en relación con otros Expanded en la misma columna o fila.
+* child: el widget que se expande.
 
 </details>
 
 <details>
 <summary>SizedBox</summary>
 
-Contenido del widget SizedBox
+## SizedBox
+El widget SizedBox se utiliza para agregar un espacio en blanco entre widgets, tanto en horizontal como en vertical. Puedes configurar su ancho, alto o ambas dimensiones.
+
+```dart
+SizedBox(
+  width: 200, // ancho del espacio en blanco
+  height: 20, // alto del espacio en blanco
+)
+
+```
+
+Parámetros:
+* width: el ancho del espacio en blanco.
+* height: el alto del espacio en blanco.
+* child: un widget opcional para mostrar dentro del espacio en blanco. Si se proporciona un child, el SizedBox ignorará los valores de ancho y alto y se ajustará al tamaño del child.
 
 </details>
 
 <details>
 <summary>Wrap</summary>
 
-Contenido del widget Wrap
+## Wrap
+El widget Wrap se utiliza para colocar widgets en una fila o columna y envolverlos automáticamente si no hay suficiente espacio disponible en la dirección dada. Puedes agregar widgets utilizando la propiedad children.
+
+```dart
+Wrap(
+  children: <Widget>[
+    Text('Etiqueta 1'),
+    Text('Etiqueta 2'),
+    Text('Etiqueta 3'),
+    Text('Etiqueta 4'),
+    Text('Etiqueta 5'),
+  ],
+)
+```
+Parámetros:
+* children: los widgets que se organizan en filas o columnas.
+* alignment: la alineación de los widgets, como start, end y center.
+* direction: la dirección de la fila o columna, como horizontal o vertical.
+* spacing: el espacio entre los widgets en la dirección de la fila o columna. Si no se proporciona, utiliza un valor predeterminado.
+* runSpacing: el espacio entre las líneas de widgets cuando hay varias líneas. Si no se proporciona, utiliza un valor predeterminado.
+* crossAxisAlignment: la alineación cruzada de los widgets, como start, center y end.
 
 </details>
 
 <details>
 <summary>Flex</summary>
 
-Contenido del widget Flex
+## Flex
+El widget Flex se utiliza para colocar widgets en una fila o columna con un tamaño flexible. Puedes agregar widgets utilizando la propiedad children.
+
+```dart
+Flex(
+  direction: Axis.horizontal,
+  mainAxisAlignment: MainAxisAlignment.center,
+  crossAxisAlignment: CrossAxisAlignment.center,
+  children: <Widget>[
+    Expanded(
+      flex: 1,
+      child: Text('Widget 1'),
+    ),
+    Expanded(
+      flex: 2,
+      child: Text('Widget 2'),
+    ),
+    Expanded(
+      flex: 1,
+      child: Text('Widget 3'),
+    ),
+  ],
+)
+
+```
+
+Parámetros:
+* children: los widgets que se organizan en filas o columnas.
+* direction: la dirección de la fila o columna, como horizontal o vertical.
+* mainAxisAlignment: la alineación principal de los widgets, como start, center y end.
+* crossAxisAlignment: la alineación cruzada de los widgets, como start, center y end.
+* mainAxisSize: el tamaño principal de la fila o columna, como min, max y average.
+* verticalDirection: la dirección de los widgets en la columna, como hacia abajo o hacia arriba.
+* textBaseline: la línea de base de los widgets de texto. Solo se aplica si hay al menos un widget de texto en la columna.
 
 </details>
 
 <details>
 <summary>ListView</summary>
 
-Contenido del widget ListView
+## ListView
+El widget ListView se utiliza para crear una lista de widgets desplazable en una dirección. Puedes agregar widgets utilizando la propiedad children o mediante el constructor ListView.builder para crear widgets bajo demanda.
+
+```dart
+ListView(
+  children: <Widget>[
+    ListTile(
+      leading: Icon(Icons.map),
+      title: Text('Mapa'),
+      subtitle: Text('Muestra un mapa'),
+    ),
+    ListTile(
+      leading: Icon(Icons.photo_album),
+      title: Text('Álbum de fotos'),
+      subtitle: Text('Muestra fotos'),
+    ),
+    ListTile(
+      leading: Icon(Icons.phone),
+      title: Text('Teléfono'),
+      subtitle: Text('Hacer llamadas'),
+    ),
+  ],
+)
+
+
+```
+
+Parámetros:
+
+* children: los widgets que se muestran en la lista.
+* scrollDirection: la dirección del desplazamiento, como horizontal o vertical.
+* reverse: si se debe invertir la dirección del desplazamiento.
+* controller: el controlador de desplazamiento personalizado.
+* primary: si el ListView debe ser el widget primario de la aplicación. Si se establece en falso, el ListView se puede desplazar dentro de un widget contenedor.
+* physics: la física de desplazamiento, como el desplazamiento suave o el desplazamiento elástico.
+* shrinkWrap: si el ListView debe adaptarse al tamaño del contenido o tener un tamaño fijo. Si se establece en verdadero, el 
+ListView se ajustará automáticamente al tamaño de los widgets que contiene. Si se establece en falso, el ListView tendrá un tamaño fijo y se puede desplazar dentro de un widget contenedor.
+itemBuilder: una función que devuelve un widget para cada ítem en la lista. Se utiliza con el constructor ListView.builder.
 
 </details>
 
 <details>
 <summary>GridView</summary>
 
-Contenido del widget GridView
+## GridView
+El widget GridView se utiliza para crear una cuadrícula de widgets en una dirección. Puedes agregar widgets utilizando la propiedad children o mediante el constructor GridView.builder para crear widgets bajo demanda.
+
+```dart
+GridView.count(
+  crossAxisCount: 2,
+  children: <Widget>[
+    ListTile(
+      leading: Icon(Icons.map),
+      title: Text('Mapa'),
+      subtitle: Text('Muestra un mapa'),
+    ),
+    ListTile(
+      leading: Icon(Icons.photo_album),
+      title: Text('Álbum de fotos'),
+      subtitle: Text('Muestra fotos'),
+    ),
+    ListTile(
+      leading: Icon(Icons.phone),
+      title: Text('Teléfono'),
+      subtitle: Text('Hacer llamadas'),
+    ),
+    ListTile(
+      leading: Icon(Icons.settings),
+      title: Text('Configuración'),
+      subtitle: Text('Cambiar ajustes'),
+    ),
+  ],
+)
+
+
+```
+
+Parámetros:
+* children: los widgets que se muestran en la cuadrícula.
+* crossAxisCount: el número de columnas en la cuadrícula.
+* scrollDirection: la dirección del desplazamiento, como horizontal o vertical.
+* reverse: si se debe invertir la dirección del desplazamiento.
+* controller: el controlador de desplazamiento personalizado.
+* primary: si el GridView debe ser el widget primario de la aplicación. Si se establece en falso, el GridView se puede desplazar dentro de un widget contenedor.
+* physics: la física de desplazamiento, como el desplazamiento suave o el desplazamiento elástico.
+* shrinkWrap: si el GridView debe adaptarse al tamaño del contenido o tener un tamaño fijo. Si se establece en verdadero, el GridView se ajustará automáticamente al tamaño de los widgets que contiene. Si se establece en falso, el GridView tendrá un tamaño fijo y se puede desplazar dentro de un widget contenedor.
+itemBuilder: una función que devuelve un widget para cada ítem en la cuadrícula. Se utiliza con el constructor GridView.builder.
+
 
 </details>
 
 <details>
 <summary>Stack</summary>
 
-Contenido del widget Stack
+## Stack
+El widget Stack se utiliza para apilar widgets uno encima del otro en un orden determinado utilizando la propiedad children.
+
+```dart
+Stack(
+  children: <Widget>[
+    Positioned(
+      top: 0,
+      left: 0,
+      child: Text('Arriba a la izquierda'),
+    ),
+    Positioned(
+      bottom: 0,
+      right: 0,
+      child: Text('Abajo a la derecha'),
+    ),
+    Positioned.fill(
+      child: Image.network('https://www.example.com/image.jpg', fit: BoxFit.cover),
+    ),
+  ],
+)
+
+
+```
+Parámetros:
+* children: los widgets que se apilan en el Stack.
+* alignment: la alineación de los widgets en el Stack, como center, topLeft y bottomRight.
+* fit: el ajuste del widget si es más pequeño o más grande que el Stack, como none, fitWidth y fitHeight.
+* overflow: la acción a tomar si los widgets en el Stack se desbordan, como clip y visible.
+* textDirection: la dirección del texto dentro del Stack.
+* clipBehavior: la forma en que se deben recortar los widgets que se desbordan, como clip y antiAlias.
 
 </details>
 
@@ -126,7 +322,14 @@ Contenido del widget Stack
 
 <details>
 <summary> MaterialApp </summary>
-* MaterialApp
+## MaterialApp
+
+```dart
+
+
+```
+
+
 </details>
 
 <details>
