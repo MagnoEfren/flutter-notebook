@@ -1,6 +1,22 @@
+# Comandos en Flutter 
+<details>
+<summary>Comandos en Flutter </summary>
+
+```flutter clean```
+Este comando elimina los archivos generados automáticamente, como los archivos de compilación y las dependencias instaladas en el directorio de caché de Flutter. Es útil para solucionar problemas de compilación o errores relacionados con la configuración del proyecto.
+
+```flutter packages get```
+Este comando actualiza las dependencias del proyecto según las especificaciones del archivo pubspec.yaml. Descarga y actualiza cualquier paquete que falte en el proyecto y lo agrega a la lista de dependencias.
+
+```flutter downgrade```
+Este comando permite al usuario bajar la versión de Flutter instalada en su sistema a una versión específica. Puede ser útil si se necesita trabajar en un proyecto específico que requiere una versión de Flutter anterior a la versión actual.
+
+```flutter run ``` 
+Este comando compila y ejecuta la aplicación de Flutter en un dispositivo o emulador conectado. Este comando se utiliza comúnmente para probar la aplicación en un dispositivo móvil o emulador durante el desarrollo.
+
+</details>
+
 # Widgets en Flutter 
-
-
 
 ## Widgets de Layout
 <details>
