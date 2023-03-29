@@ -2,7 +2,6 @@
 <details>
 <summary>Comandos en Flutter </summary>
 
-
 ```flutter clean```
 Este comando elimina los archivos generados automáticamente, como los archivos de compilación y las dependencias instaladas en el directorio de caché de Flutter. Es útil para solucionar problemas de compilación o errores relacionados con la configuración del proyecto.
 
